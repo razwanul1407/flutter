@@ -12,6 +12,10 @@
 # It is expected that the lockfile output of this script is then
 # uploaded using GitHub actions to be used by the osv-scanner reusable action.
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import json
 import os
